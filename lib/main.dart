@@ -20,7 +20,7 @@ class _FlutterKMState extends State<FlutterKM> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroductionScreenUI(),  // ใช้ SplashScreenUi เป็นหน้าหลัก
+      home: SplashScreenUi(), // ใช้ SplashScreenUi เป็นหน้าหลัก
     );
   }
 }
